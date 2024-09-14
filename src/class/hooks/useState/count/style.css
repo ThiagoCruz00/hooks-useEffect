@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border: none;
+}
+
+.count > button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+
+    background-color: lightblue;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.count > button:hover{
+    background-color: #fff;
+    border: 1px solid lightblue;
+    color: lightblue;
+}
